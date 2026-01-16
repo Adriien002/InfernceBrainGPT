@@ -1,0 +1,22 @@
+# Modèles et Poids (trop lourds pour GitHub)
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.weights
+
+# Données et Datasets
+*.nii.gz
+*.dcm
+data/
+datasets/
+
+# Python et Environnement
+__pycache__/
+.venv/
+.env
+*.pyc
+
+# Logs d'entraînement
+wandb/
+lightning_logs/
